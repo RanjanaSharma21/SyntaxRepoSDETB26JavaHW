@@ -8,6 +8,16 @@ public class E1IfElseStatements {
         // Use if-else condition to check if number is even.
         // If number is even, then print The number is even.
         // If number is odd, then print The number is odd.
+        int number=10;
+        if(number % 2 == 0)
+        {
+            System.out.println("The number is even.");
+        }
+        else{
+            System.out.println("The number is odd.");
+        }
+
+
 
     }
 }
