@@ -6,5 +6,10 @@ public class E4IfElseStatements {
         // Use a simple if-else condition to check if language equals "Java".
         // If language equals to "Java", then print The programming language is Java.
         // If language does not equal to "Java", then print The programming language is not Java
+        String lang="Java";
+        if (lang=="Java") {
+            System.out.println("The programming language is Java."); }
+        else {
+            System.out.println("The programming language is not Java."); }
     }
 }
