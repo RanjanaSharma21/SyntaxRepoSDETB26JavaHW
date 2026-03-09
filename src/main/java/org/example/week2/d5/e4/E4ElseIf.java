@@ -32,6 +32,7 @@ public class E4ElseIf {
             System.out.println("The animal is a reptile."); }
         else {
             System.out.println("Unknown animal type."); }
+        
 
     }
 }
