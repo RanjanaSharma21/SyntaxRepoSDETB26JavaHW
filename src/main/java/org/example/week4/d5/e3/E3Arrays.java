@@ -3,16 +3,13 @@ package org.example.week4.d5.e3;
 public class E3Arrays {
     public static void main(String[] args) {
 
-// Declare and initialize the array
         char[] letters = {'s','a','y','b','n','c','t','d','a','e','x'};
 
-        // Print characters that form "syntax"
         System.out.print(letters[0]);
+        System.out.print(letters[2]);
         System.out.print(letters[4]);
         System.out.print(letters[6]);
-        System.out.print(letters[2]);
-        System.out.print(letters[5]);
+        System.out.print(letters[8]);
         System.out.print(letters[10]);
-
     }
 }
