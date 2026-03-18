@@ -13,5 +13,13 @@ public class E1Array {
         System.out.print(numbers[i]+ " ");
     }
 
+        // Declare and initialize the array
+        int[] numbers = {45, 78, 12, 67, 55};
+
+        // Loop to print the values
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + " ");
+        }
+
     }
 }
