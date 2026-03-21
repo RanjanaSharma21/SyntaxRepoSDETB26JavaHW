@@ -18,11 +18,11 @@ public class E2EnhancedForLoop {
 
         int[] testDurations = {45, 82, 63, 95, 50, 70, 110, 55, 60};
         int threshold = 70;
-        System.out.println("Slow test durations (greater than 70 seconds):");
+        //System.out.println("Slow test durations (greater than 70 seconds):");
 
         for (int duration : testDurations) {
             if (duration > threshold) {
-                System.out.println(duration);
+                System.out.print(duration+" ");
             }
         }
 

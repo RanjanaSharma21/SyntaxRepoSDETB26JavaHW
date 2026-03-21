@@ -20,7 +20,7 @@ public class E3Break {
         double[] temp = {36.5, 37.0, 37.5, 38.0, 39.5, 40.0, 40.5};
         for (double currentTemp : temp) {
             if (currentTemp < 39.5) {
-                System.out.println("Temperature is normal: "+currentTemp+"°C. Stopping monitoring.");
+                System.out.println("Temperature is normal: "+currentTemp+"°C");
             }
             else{
                System.out.println("Critical temperature reached: "+currentTemp+"°C. Stopping monitoring.");
