@@ -8,12 +8,12 @@ public class E4WhileLoop {
         i+=7;
     }
 
-        int i = 7;   // Step 1: start from 7
+       /* int i = 7;   // Step 1: start from 7
 
         while (i <= 98) {   // Step 2: loop until 98
             System.out.println(i);  // print number
             i += 7;   // add 7 each time
-        }
+        }*/
 
     }
 }

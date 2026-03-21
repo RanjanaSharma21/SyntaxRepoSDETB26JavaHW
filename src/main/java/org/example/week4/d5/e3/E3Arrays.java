@@ -8,7 +8,7 @@ public class E3Arrays {
         i+=2;
     }
 
-        char[] letters = {'s','a','y','b','n','c','t','d','a','e','x'};
+       // char[] letters = {'s','a','y','b','n','c','t','d','a','e','x'};
 
         System.out.print(letters[0]);
         System.out.print(letters[2]);

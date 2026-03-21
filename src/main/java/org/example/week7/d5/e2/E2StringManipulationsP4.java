@@ -13,8 +13,11 @@ public class E2StringManipulationsP4 {
          * 4. The expected output should simply be:
          *    Hey! Let me know if you are free.
          */
+        String text="Hey! LMK if you are free.";
+        String newText=text.replace("LMK","Let me know");
 
 
+        System.out.println(newText);
 
     }
 }
