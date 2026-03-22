@@ -17,6 +17,5 @@ public class E4WhileLoop {
             System.out.println(i);
             i += 7;
         }
-
     }
 }

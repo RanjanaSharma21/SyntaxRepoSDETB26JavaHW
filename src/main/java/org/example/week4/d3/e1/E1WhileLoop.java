@@ -14,5 +14,6 @@ public class E1WhileLoop {
         while (counter<=8) {
             System.out.println(counter++);
         }
+
     }
 }

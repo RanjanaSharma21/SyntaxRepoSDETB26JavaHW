@@ -14,6 +14,5 @@ public class E3Arrays {
         for (int i : indices) {
             System.out.print(chars[i]);
         }
-
     }
 }

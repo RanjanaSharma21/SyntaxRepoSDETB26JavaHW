@@ -18,6 +18,5 @@ public class E6DoWhileLoop {
                 System.out.println(counter); }
             counter--;
         } while(counter>=2);
-
     }
 }
