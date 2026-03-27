@@ -17,6 +17,11 @@ public class E4JavaMethods {
          * true
          * false
          */
+
+        NumberChecker nc=new NumberChecker();
+        boolean result=nc.isEven(4);
+        System.out.println(result);
+        System.out.println(nc.isEven(7));
     }
 
 }

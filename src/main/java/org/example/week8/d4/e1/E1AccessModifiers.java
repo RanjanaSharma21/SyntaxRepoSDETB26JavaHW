@@ -25,7 +25,33 @@ public class E1AccessModifiers {
         //This is Default Method
         //This is Public Method
 
+
+        E1AccessModifiers e1=new E1AccessModifiers();
+        e1.privateAccess();
+
+        E1AccessModifiers e2=new E1AccessModifiers();
+        e2.defaultAccess();
+
+        E1AccessModifiers e3=new E1AccessModifiers();
+        e3.publicAccess();
+
     }
+
+    private void privateAccess(){
+        System.out.println("This is Private Method");
+    }
+
+    void defaultAccess(){
+        System.out.println("This is Default Method");
+    }
+
+    public void publicAccess (){
+        System.out.println("This is Public Method");
+    }
+
+
+
+
 }
 
 

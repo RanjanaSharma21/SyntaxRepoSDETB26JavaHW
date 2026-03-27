@@ -27,6 +27,19 @@ public class E1Variables {
          *
          * 6. Ensure you print the details for both objects.
          */
-        }
+
+        Student s1=new Student();
+        s1.year=2050;
+        s1.schoolName="Syntax";
+        s1.batchNumber=200;
+
+        Student s2=new Student();
+        s2.year=2051;
+        s2.schoolName="Tech";
+        s2.batchNumber=300;
+
+        System.out.println("I am a student of batch "+ s1.batchNumber +" studying at Syntax in the year of "+ s1.year+".");
+        System.out.println("I am a student of batch "+ s2.batchNumber +" studying at Tech in the year of "+ s2.year+".");
+    }
 }
 
