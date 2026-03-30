@@ -19,9 +19,9 @@ public class E1StringManipulationsP4 {
          * 6. Print the extracted substring.
          *
          */
-        String str="HelloLearnJavaWorld";
-        String substring=str.substring(5,14);
-        System.out.println(substring);
+
+
+
 
 
 

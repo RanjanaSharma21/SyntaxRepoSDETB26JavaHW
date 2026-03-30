@@ -34,11 +34,6 @@ public class E2AccessModifiers {
         //4. Expected Output
         //   My name is John and I live in Miami. I study at Syntax in batch 9.
 
-          AccessTester a=new AccessTester();
-          String name="John";
-          a.city="Miami";
-          a.batchNumber=9;
-          a.display(name);
 
         }
 }

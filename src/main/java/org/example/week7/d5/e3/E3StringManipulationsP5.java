@@ -11,9 +11,7 @@ public class E3StringManipulationsP5 {
          *
          * The expected output should be: 1234567890
          */
-         String phoneNo="(123) 456-7890";
-         String newNo=phoneNo.replaceAll("\\D","");
-        System.out.println(newNo);
+
 
     }
 }

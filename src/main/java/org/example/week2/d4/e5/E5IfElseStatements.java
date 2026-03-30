@@ -2,16 +2,17 @@ package org.example.week2.d4.e5;
 
 public class E5IfElseStatements {
     public static void main(String[] args) {
+        boolean isJavaFub = true;
+        if (isJavaFub){
+            System.out.println("java is fun");
 
+        }else {
+            System.out.println("java is not fun");
+        }
         // Declare a boolean variable and assign a value
         // Use a simple if-else condition to check if isJavaFun is true.
         // If isJavaFun is true, print: Java is fun!
         // If isJavaFun is not true, print: Java is not fun.
-        boolean isJavaFun=true;
-        if(isJavaFun)
-            System.out.println("Java is fun!");
-        else
-            System.out.println("Java is not fun.");
 
     }
 }

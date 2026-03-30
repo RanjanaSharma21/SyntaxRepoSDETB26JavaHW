@@ -20,8 +20,5 @@ public class E3JavaMethods {
         //        Expected Output
         //        11:30
 
-        TimePrinter tp=new TimePrinter();
-        tp.printTime(11,30);
-
     }
 }

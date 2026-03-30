@@ -21,12 +21,5 @@ public class E3StaticKeyword {
          * These steps will help you add the required methods to the existing class and call them correctly.
          */
 
-        MessagePrinter mp=new MessagePrinter();
-        mp.nonStaticMethod();
-        MessagePrinter.staticMethod();
-
-
-
-
     }
 }

@@ -1,9 +1,5 @@
 package org.example.week8.d1.e1;
 
-
-
-
-
 public class E1JavaMethods {
     public static void main(String[] args) {
 
@@ -21,14 +17,11 @@ public class E1JavaMethods {
         // The expected output is:
         // "Hello, welcome to Java!"
         // "Goodbye! Have a great day!"
-        MethodLibrary m=new MethodLibrary();
-        m.greet();
-        m.farewell();
 
 
     }
 
-    }
 
 
 
+}

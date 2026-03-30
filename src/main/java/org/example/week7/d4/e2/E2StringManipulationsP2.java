@@ -5,7 +5,7 @@ public class E2StringManipulationsP2 {
         /*
          *
          * 1. Declare a String variable called 'email' and assign it "john.doe@example.com".
-
+         *
          * 2. Check if the email contains the "@" symbol:
          *
          * 3. To check if the email starts with "info":
@@ -19,10 +19,7 @@ public class E2StringManipulationsP2 {
          * false
          * true
          */
-         String email="abc@yahoo.com";
-        System.out.println(email.contains("@"));
-        System.out.println(email.startsWith("info"));
-        System.out.println(email.endsWith(".com"));
+
 
     }
 }

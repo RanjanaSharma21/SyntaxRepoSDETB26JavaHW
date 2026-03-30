@@ -5,15 +5,10 @@ public class E4CreatingVariablesAndPrinting {
 
         // The pattern should be:
         // *
-        System.out.println("*");
         // **
-        System.out.println("**");
         // ***
-        System.out.println("***");
         // ##
-        System.out.println("##");
         // #
-        System.out.println("#");
 
         // Note: Each System.out.println statement will create a new line
 
