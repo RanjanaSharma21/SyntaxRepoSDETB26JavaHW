@@ -15,6 +15,7 @@ public class E2NestedForLoops {
 
         for (int i = 0; i < 2; i++) {
             System.out.println("SDLC");
+            System.out.println("SDLC");
             for (int j = 0; j < 3; j++) {
                 System.out.println("Java");
             }

@@ -17,7 +17,5 @@ public class E4ForLoop {
             System.out.println(i);
         }
         System.out.println("Happy New Year!");
-
-
     }
 }

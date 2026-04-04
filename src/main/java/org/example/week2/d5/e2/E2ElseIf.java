@@ -2,6 +2,21 @@ package org.example.week2.d5.e2;
 
 public class E2ElseIf {
     public static void main(String[] args) {
+/*
+        int temperature = 25;
+
+        if (temperature >= 30) {
+            System.out.println("its hot outside");
+        }else if (temperature>=20) {
+            System.out.println("It's warm outside.");
+
+        }else if (temperature>=10) {
+            System.out.println("It's cool outside.");
+            
+        }else{
+            System.out.println("It's cold outside.");
+        }
+*/
 
         // Use if-else-if statements to check the value of temperature and print a message based on the following conditions:
 

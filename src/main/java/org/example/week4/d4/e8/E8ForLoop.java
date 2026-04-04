@@ -20,7 +20,6 @@ import java.util.Scanner;
 
 public class E8ForLoop {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
         System.out.print("In: ");
         int x = scanner.nextInt();

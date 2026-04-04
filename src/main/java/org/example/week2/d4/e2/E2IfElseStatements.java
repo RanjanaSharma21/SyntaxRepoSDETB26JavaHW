@@ -2,6 +2,13 @@ package org.example.week2.d4.e2;
 
 public class E2IfElseStatements {
     public static void main(String[] args) {
+        int number = -5;
+
+        if (number>0){
+            System.out.println("the number is positive");
+        }else {
+            System.out.println("the number is negative");
+        }
         // Declare an integer variable and assign a value
         // int number = -5;
         // Use a simple if-else condition to check if number is positive.

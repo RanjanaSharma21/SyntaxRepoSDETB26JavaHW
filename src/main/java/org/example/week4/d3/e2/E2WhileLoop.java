@@ -13,6 +13,7 @@ public class E2WhileLoop {
 
     public static void main(String[] args) {
 
+
         int counter=15;
         while(counter>=0) {
             System.out.println(counter--);

@@ -23,10 +23,5 @@ public class E1StringManipulationsP4 {
         //System.out.println(dataString.substring(5,14));
         System.out.println(dataString.substring(5,5+9));
 
-
-
-
-
-
     }
 }
