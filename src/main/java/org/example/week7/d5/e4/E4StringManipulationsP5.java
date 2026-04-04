@@ -16,7 +16,9 @@ public class E4StringManipulationsP5 {
          *
          * These steps will help you extract each field from the CSV line and print them one by one.
          */
-
-
+        String csvLine="John Doe,22,Computer Science,3.8,2025";
+        for(String array:csvLine.split(",")){
+            System.out.println(array);
+        }
     }
 }

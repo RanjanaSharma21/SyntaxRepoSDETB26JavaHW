@@ -11,6 +11,12 @@ public class E3StringManipulationsP5 {
          *
          * The expected output should be: 1234567890
          */
+        String phoneNumber="(123) 456-7890";
+        phoneNumber=phoneNumber.replaceAll("\\(", "");
+        phoneNumber=phoneNumber.replaceAll("\\)", "");
+        phoneNumber=phoneNumber.replaceAll("-", "");
+        phoneNumber=phoneNumber.replaceAll(" ", "");
+        System.out.println(phoneNumber);
 
 
     }

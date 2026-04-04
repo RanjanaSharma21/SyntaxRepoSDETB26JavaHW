@@ -27,11 +27,17 @@ public class E4StringManipulationsP3 {
 //
         String word = "hello";
         int index = word.indexOf('o');
+        System.out.println("Position of first 'o': "+index);
+        index = word.indexOf('j');
+        System.out.println("Position of 'j': "+index);
+
+        /*
         if (index != -1) {
             System.out.println("- Position of first 'o': ["+index+"]");
         }
         index = word.indexOf('j');
         if (index != -1) {System.out.println("- Position of first 'o': ["+index+"]");}
+        */
 
     }
 }
