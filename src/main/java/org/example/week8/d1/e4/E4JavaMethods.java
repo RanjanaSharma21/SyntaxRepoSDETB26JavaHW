@@ -17,6 +17,6 @@ public class E4JavaMethods {
          * true
          * false
          */
-    }
+        System.out.println(NumberChecker.isEven(4));    }
 
 }

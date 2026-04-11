@@ -7,6 +7,7 @@ public class E2JavaMethods {
 
         // TODO: Step 2 - In your main class, implement the `main` method.
         // From the `main` method, call the `printNumbers` method to display the numbers.
+        Printer.printNumbers();
 
         // TODO: Step 3 - Run your program and verify the output.
         // The expected output is numbers 1 through 10 printed on separate lines.

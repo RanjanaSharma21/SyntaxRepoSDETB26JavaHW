@@ -19,6 +19,7 @@ public class E3JavaMethods {
         //Step 2: Run the Program
         //        Expected Output
         //        11:30
+        TimePrinter.printTime(11,30);
 
     }
 }

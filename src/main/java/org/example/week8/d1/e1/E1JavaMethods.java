@@ -9,6 +9,8 @@ public class E1JavaMethods {
 
         // TODO: Step 2 - In `main` method, create the object of MethodLibrary and call the `greet` and `farewell` methods.
         // In  `main` method, call the `greet` and `farewell` methods from the `MethodLibrary` class.
+        MethodLibrary.greet();
+        MethodLibrary.farewell();
 
         // TODO: Step 3 - Understand that both methods are void methods.
         // They perform actions (printing messages) without returning any values.
