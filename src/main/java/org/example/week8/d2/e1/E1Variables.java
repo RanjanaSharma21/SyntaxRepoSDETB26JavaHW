@@ -27,6 +27,13 @@ public class E1Variables {
          *
          * 6. Ensure you print the details for both objects.
          */
-        }
+        Student student1 = new Student();
+        Student student2 = new Student();
+        student1.assignValues(2050, "Syntax", 200);
+        student2.assignValues(2051, "Tech", 300);
+        student1.printValues();
+        student2.printValues();
+
+    }
 }
 

@@ -9,4 +9,17 @@ public class Vehicle {
    * 3. Inside displayInfo(), use System.out.println() to print a message that includes the make and year.
    *    - For example, print: "Vehicle: Toyota, Year: 2020"
    */
-}
+        String make;
+        int year;
+
+        public Vehicle() {
+            this.make = "Toyota";
+            this.year = 2020;
+        }
+
+        public void displayInfo(){
+            System.out.println("Vehicle: "+this.make+", Year: "+this.year);
+        }
+
+    }
+

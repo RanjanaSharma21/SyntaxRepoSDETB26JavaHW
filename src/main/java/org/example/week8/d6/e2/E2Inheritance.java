@@ -2,8 +2,6 @@ package org.example.week8.d6.e2;
 
 public class E2Inheritance {
     public static void main(String[] args) {
-
-
         /*
         Step 1,2,3 are in Animal and Mammal
 
@@ -22,5 +20,9 @@ public class E2Inheritance {
          *
          * Follow these steps to complete your exercise without using method chaining.
          */
+        Dog dog = new Dog();
+        dog.displayAnimalInfo();
+        dog.displayMammalInfo();
+        dog.displayDogInfo();
 }
 }

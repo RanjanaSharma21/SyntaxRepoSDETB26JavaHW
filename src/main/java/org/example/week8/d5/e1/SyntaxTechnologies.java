@@ -1,8 +1,6 @@
 package org.example.week8.d5.e1;
-
+import java.util.Scanner;
 public class SyntaxTechnologies {
-
-
     //          This class will have four instance variables to store school details.
     //          It will include two constructors (a no-argument constructor and a parameterized constructor).
     //          A display() method will print the values of the instance variables.
@@ -33,5 +31,30 @@ public class SyntaxTechnologies {
     //3. Create a display() Method
     //   This method prints all instance variables in the format:
     //   schoolName batch year lastDayOfClass
+
+    String schoolName;
+    int batch;
+    int year;
+    String lastDayOfClass;
+
+    public SyntaxTechnologies() {
+        schoolName=null;
+        batch=0;
+        year=0;
+        lastDayOfClass=null;
+    }
+
+    public SyntaxTechnologies(String schoolName, int batch, int year, String lastDayOfClass) {
+        this.schoolName=schoolName;
+        this.batch=batch;
+        this.year=year;
+        this.lastDayOfClass=lastDayOfClass;
+    }
+
+    public void display() {
+        System.out.println(this.schoolName + " " + this.batch + " " + this.year + " " + this.lastDayOfClass );
+    }
+
+
 
 }

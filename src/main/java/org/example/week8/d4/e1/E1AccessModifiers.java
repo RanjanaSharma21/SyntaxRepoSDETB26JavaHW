@@ -1,6 +1,23 @@
 package org.example.week8.d4.e1;
 
+import org.example.week8.d2.e3.MessagePrinter;
+
 public class E1AccessModifiers {
+
+    private void privateMethod ()
+    {
+        System.out.println("This is Private Method");
+    }
+
+    void defaultMethod()
+    {
+        System.out.println("This is Default Method");
+    }
+
+    public void publicMethod()
+    {
+        System.out.println("This is Public Method");
+    }
 
 
     public static void main(String[] args) {
@@ -25,6 +42,10 @@ public class E1AccessModifiers {
         //This is Default Method
         //This is Public Method
 
+        E1AccessModifiers e1AccessModifiers = new E1AccessModifiers();
+        e1AccessModifiers.privateMethod();
+        e1AccessModifiers.defaultMethod();
+        e1AccessModifiers.publicMethod();
     }
 }
 

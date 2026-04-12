@@ -33,8 +33,10 @@ public class E2AccessModifiers {
         //   Step 3: Call the display method to print the details.
         //4. Expected Output
         //   My name is John and I live in Miami. I study at Syntax in batch 9.
-
-
+        AccessTester tester = new AccessTester();
+        tester.city = "Miami";
+        tester.batchNumber = 9;
+        tester.display();
         }
 }
 
