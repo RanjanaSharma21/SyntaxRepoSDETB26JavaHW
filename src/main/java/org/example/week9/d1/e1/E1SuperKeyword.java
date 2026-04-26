@@ -11,6 +11,9 @@ public class E1SuperKeyword {
          * - If the Building class has only a parameterized constructor (and no default constructor),
          *   the House class must call super() with a matching argument; otherwise, a compile-time error occurs.
          */
+         House house = new House("Vienna");
+         //Building b = new Building();
+       // Building b1 = new House("b1 instance - house parameter cnonstructor");
     }
 }
 

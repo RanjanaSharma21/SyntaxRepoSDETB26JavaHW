@@ -11,6 +11,12 @@ public class E1ObjectTypeCasting {
          *    - Cast the Animal variable to a Dog variable.
          *    - Call fetch() on the Dog variable to print "Fetching the ball!".
          */
+        Animal animal = new Dog();
+        animal.makeSound();
+        Dog dog = (Dog) animal;
+        dog.fetch();
+        //dog.makeSound();
+
     }
 
 }

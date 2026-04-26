@@ -11,7 +11,8 @@ public class E2MultipleInterface {
         // Provide an implementation for the configure() method that prints "Configuring Smart Home Device settings".
         // Step 4: In the `E2MultipleInterface.java` class, Create an object of the SmartHomeDevice class and Call the turnOn(),configure() methods and verify that all methods are being called correctly.
 
-
+        SmartHomeDevice smartHomeDevice = new SmartHomeDevice();
+        smartHomeDevice.turnOn();
+        smartHomeDevice.configure();
     }
 }
-

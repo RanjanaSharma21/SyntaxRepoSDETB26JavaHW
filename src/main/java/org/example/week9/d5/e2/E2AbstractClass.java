@@ -32,6 +32,16 @@ public class E2AbstractClass {
         // Create an object of the `Shape` class using Circle class constructor.
         // Call the `displayName()`,`calculateArea()` and `calculatePerimeter()` methods.
         // Print the output to verify that all methods are being called correctly
+       //Shape shape = new Shape();
+        Shape shapeRect = new Rectangle(6.0,4.0);
+        shapeRect.display();
+        shapeRect.calculateArea();
+        shapeRect.calculatePerimeter();
+
+        Shape shapeCircle = new Circle(5.0);
+        shapeCircle.display();
+        shapeCircle.calculateArea();
+        shapeCircle.calculatePerimeter();
 
         
 

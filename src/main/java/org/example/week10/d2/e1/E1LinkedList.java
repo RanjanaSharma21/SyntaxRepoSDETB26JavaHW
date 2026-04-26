@@ -1,5 +1,7 @@
 package org.example.week10.d2.e1;
 
+import java.util.LinkedList;
+
 public class E1LinkedList {
 
     public static void main(String[] args){
@@ -14,6 +16,15 @@ public class E1LinkedList {
          * Expected Output:
          * [51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90, 93, 96, 99]
          */
+        LinkedList<Integer> list = new LinkedList<>();
+        for (int i = 50; i <= 100; i++) {
+            list.add(i);
+        }
+        for(int i = 0; i < list.size(); i++){
+            list.removeIf(num -> num % 3 != 0);
+        }
+
+        System.out.println(list);
     }
 
 }

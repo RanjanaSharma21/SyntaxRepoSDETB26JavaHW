@@ -1,7 +1,9 @@
 # Implementing an Interface in an Electronic Device System
 
 ## Objective
-Learn how to use interfaces in Java to define behaviors that multiple classes can implement. You will define an interface with methods for turning on and off electronic devices and implement this interface in different device classes.
+Learn how to use interfaces in Java to define behaviors that multiple classes can implement. 
+You will define an interface with methods for turning on and off electronic devices 
+and implement this interface in different device classes.
 
 ## Instructions
 

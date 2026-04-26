@@ -1,6 +1,8 @@
 package org.example.week10.d1.e1;
 
 
+import java.util.ArrayList;
+
 public class E1ArrayList {
     public static void main(String[] args) {
 
@@ -11,7 +13,11 @@ public class E1ArrayList {
         // Use the `isEmpty()` method again to check if the list is still empty after adding the task.
         // Step 2: Print `true` if the list is empty initially and `false` after adding the task.
 
+        ArrayList<String> list = new ArrayList<>();;
 
+        System.out.println(list.isEmpty());
+        list.add("Buy Groceries");
+        System.out.println(list.isEmpty());
     }
 
 }

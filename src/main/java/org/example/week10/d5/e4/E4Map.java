@@ -17,7 +17,39 @@ public class E4Map {
         // Step 5: Use the `entrySet()` method** to retrieve both keys and values as `Map.Entry` objects from the HashMap.
         // Use a loop to iterate through both keys and values of the HashMap and print each student ID and name in the format:"Student ID: [key], Student Name: [value]".
 
+        HashMap<Integer, String> map = new HashMap<>();
 
+        map.put(101, "John");
+        map.put(102, "Emily");
+        map.put(103, "Michael");
+        map.put(104, "Sarah");
+        map.put(105, "David");
 
+        //for (HashMap.Entry<String, String> entry : map.entrySet()) {
+        //    System.out.println("Product ID: " + entry.getKey() + ", Product Name: " + entry.getValue());
+        //}
+        System.out.println("Student IDs:");
+        for(Integer key : map.keySet()){
+            //String value = map.get(key);
+            System.out.println("Student ID: "+key);
         }
+
+        System.out.println();
+        System.out.println("Student Names:");
+        for(String value : map.values()){
+            System.out.println("Student Name: "+ value);
+        }
+
+
+        System.out.println();
+        System.out.println("Student Records:");
+        //for(Integer key : map.keySet()){
+        //    String value = map.get(key);
+        //    System.out.println("Student ID: "+key+", Student Name: " + value);
+        //}
+
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+            System.out.println("Student ID: " + entry.getKey() + ", Student Name: " + entry.getValue());
+        }
+      }
     }

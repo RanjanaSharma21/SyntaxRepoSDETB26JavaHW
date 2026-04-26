@@ -28,6 +28,22 @@ public class E3Map {
          * Product ID: A005, Product Name: Mango
          */
 
+        TreeMap<String,String> map = new TreeMap<>();
+
+        map.put("A001", "Apple");
+        map.put("A003", "Pear");
+        map.put("A002", "Banana");
+        map.put("A005", "Mango");
+        map.put("A004", "Tomato");
+
+        for(String key : map.keySet()){
+            String value = map.get(key);
+            System.out.println("Product ID: "+key+", Product Name: " + value);
+        }
+
+
+
+
 
     }
 

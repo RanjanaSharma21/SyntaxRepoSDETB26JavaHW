@@ -18,7 +18,6 @@ public class Car extends Vehicle {
      public void displayCarInfo(){
          displayInfo();
          System.out.println("Model: " + model);
-
      }
 
 }

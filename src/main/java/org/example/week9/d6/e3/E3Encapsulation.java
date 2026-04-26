@@ -13,5 +13,11 @@ public class E3Encapsulation {
         // Step 4: In the `E5Encapsulation.java` class, Create an object of the Employee  class.
         // Use the setter methods to set the employee’s name to "John" and age to 30.
         // Use the getter methods to print the employee’s name and age as shown in the output.
+
+        Employee emp = new Employee();
+        emp.setEmpName("John");
+        emp.setEmpAge(30);
+        System.out.println("Employee Name: "+emp.getEmpName());
+        System.out.println("Employee Age: "+emp.getEmpAge());
     }
 }

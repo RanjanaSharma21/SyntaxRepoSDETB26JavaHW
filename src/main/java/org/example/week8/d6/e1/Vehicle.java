@@ -11,15 +11,17 @@ public class Vehicle {
    */
         String make;
         int year;
+        protected String color;
 
         public Vehicle() {
             this.make = "Toyota";
             this.year = 2020;
+            this.color = "blue";
         }
 
         public void displayInfo(){
             System.out.println("Vehicle: "+this.make+", Year: "+this.year);
         }
-
     }
+
 
